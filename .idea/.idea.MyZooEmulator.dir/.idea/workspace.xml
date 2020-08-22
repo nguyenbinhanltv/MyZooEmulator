@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="06707d55-81cd-4bcf-a88e-2bda139da89e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animals/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/Animal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engines/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Engines/Engine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/GodOfDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Engines/GodOfDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repo/ZooRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repo/ZooRepo.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Repo/ZooRepo.cs" />
+        <option value="$PROJECT_DIR$/Engines/GodOfDeath.cs" />
         <option value="$PROJECT_DIR$/Engines/Engine.cs" />
+        <option value="$PROJECT_DIR$/Repo/ZooRepo.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Animals/Animal.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598068043375</updated>
-      <workItem from="1598068106571" duration="2043000" />
+      <workItem from="1598068106571" duration="2122000" />
     </task>
     <servers />
   </component>
