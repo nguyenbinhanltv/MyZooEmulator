@@ -22,8 +22,6 @@ namespace MyZooEmulator.Engines
         
         public static void PrintHeader()
         {
-            // Print title
-            //Console.SetCursorPosition(0, 0);
             Console.Clear();        
             Console.WriteLine("-------------------------");
             Console.WriteLine("     Sở thú diệu kì      ");
@@ -31,40 +29,31 @@ namespace MyZooEmulator.Engines
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
-
-            // Print prev message
+            
             PrintPrevMessage();
         }
-
-        // Print message after the header
+        
         public static void PrintMessage(string message)
         {
-            // Remember message
             Message = message;
-
-            // Remember cursor position
+            
             _left = Console.CursorLeft;
             _top = Console.CursorTop;
-
-            // Clear message area
+            
             Console.SetCursorPosition(0, 4);
-            Console.WriteLine("                                                                                       ");
-
-            // Print the message
+            Console.WriteLine("");
+            
             Console.SetCursorPosition(0, 4);
             Console.WriteLine($"Message:  {message}");
-
-            // Set position to the previous place
+            
             Console.SetCursorPosition(_left, _top);
         }
-
-        // Print message again if screen was cleared
+        
         public static void PrintPrevMessage()
         {
             PrintMessage(Message);
         }
-
-        // Display menu and return selected command
+        
         public static int DisplayMenu(string name, IEnumerable<string> items)
         {
             // Print menu
