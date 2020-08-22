@@ -8,7 +8,6 @@
         Bear,
         Wolf,
         Fox,
-        Rabbit,
-        Glass,
+        Rabbit
     }
 }

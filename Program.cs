@@ -17,6 +17,9 @@ namespace MyZooEmulator
             SetConsoleOutputCP(65001);
             Console.OutputEncoding = Encoding.UTF8;
             
+            //Change color message
+            Console.ForegroundColor = ConsoleColor.Red;
+            
             // Create zooEmulator
             var zoo = new ZooRepo();
             zoo.AddAnimalsForDebug();
