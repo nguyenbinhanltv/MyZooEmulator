@@ -25,8 +25,6 @@
     <list default="true" id="06707d55-81cd-4bcf-a88e-2bda139da89e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Engines/GodOfDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Engines/GodOfDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engines/Renderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Engines/Renderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,7 @@
       <workItem from="1598068106571" duration="7666000" />
       <workItem from="1598113664182" duration="4801000" />
       <workItem from="1598124862020" duration="5564000" />
-      <workItem from="1598131493289" duration="3253000" />
+      <workItem from="1598131493289" duration="4001000" />
     </task>
     <servers />
   </component>
@@ -132,26 +130,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="916" height="439" key="GridCell.Tab.0.bottom" timestamp="1598134519670">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom" timestamp="1598135116877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="439" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598134519670" />
-    <state width="916" height="439" key="GridCell.Tab.0.center" timestamp="1598134519670">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598135116877" />
+    <state width="916" height="438" key="GridCell.Tab.0.center" timestamp="1598135116877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="439" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598134519670" />
-    <state width="916" height="439" key="GridCell.Tab.0.left" timestamp="1598134519670">
+    <state width="916" height="438" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598135116877" />
+    <state width="916" height="438" key="GridCell.Tab.0.left" timestamp="1598135116877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="439" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598134519670" />
-    <state width="916" height="439" key="GridCell.Tab.0.right" timestamp="1598134519670">
+    <state width="916" height="438" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598135116877" />
+    <state width="916" height="438" key="GridCell.Tab.0.right" timestamp="1598135116877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="439" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598134519670" />
+    <state width="916" height="438" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598135116877" />
     <state x="1052" y="100" width="776" height="840" key="VCS.FileHistoryDialog" timestamp="1598132347738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

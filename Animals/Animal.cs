@@ -45,7 +45,7 @@ namespace MyZooEmulator.Animals
                     {
                         _status = AnimalStatus.Dead;
                         
-                        Renderer.PrintMessage($"({Type}) {Name} Chết nà");
+                        Renderer.PrintMessage($"({Type}) {Name} chết nà");
                     }
                 }
 
@@ -88,7 +88,7 @@ namespace MyZooEmulator.Animals
             }
             else
             {
-                Renderer.PrintMessage($"({Type}) {Name} Chết òi, không chữa được đâu, thịt thui");
+                Renderer.PrintMessage($"({Type}) {Name} chết òi, không chữa được đâu, thịt thui");
 
             }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using MyZooEmulator.Animals;
 using MyZooEmulator.Repo;
 using MyZooEmulator.Weather;
 
@@ -68,7 +69,7 @@ namespace MyZooEmulator.Engines
         private void TouchSomebody(object source, ElapsedEventArgs e, ZooRepo zoo)
         {
             var victim = zoo.GetRandomAnimal();
-            if (victim != null)
+            if (victim != null && victim.Status != AnimalStatus.Dead)
             {
                 victim.ChangeStatus();
                 RandomWeather(Days);
