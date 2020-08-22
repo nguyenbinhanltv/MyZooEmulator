@@ -8,13 +8,9 @@ namespace MyZooEmulator
 {
     class Program
     {
-        [DllImport("kernel32.dll")]
-        static extern bool SetConsoleOutputCP(uint wCodePageID);
-        
         static void Main(string[] args)
         {
             //Use VietNamese
-            SetConsoleOutputCP(65001);
             Console.OutputEncoding = Encoding.UTF8;
             
             //Change color message
@@ -33,7 +29,7 @@ namespace MyZooEmulator
             // Create menu and app logic
             var engine = new Engine(zoo);
             // Run app logic
-            engine.Run();           
+            engine.Run();
         }
     }
 }

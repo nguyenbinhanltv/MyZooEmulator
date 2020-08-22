@@ -306,7 +306,7 @@ namespace MyZooEmulator.Engines
             if (allAnimalsDead)
             {
                 Console.Clear();
-                Console.WriteLine("Sở thú của bạn đã bị hủy diệt.");
+                Console.WriteLine("Sở thú của bạn đã bị hủy diệt");
                 Console.ReadKey();
             }
         }

@@ -46,6 +46,9 @@
         <e p="IZoo.cs" t="Include" />
         <e p="ZooRepo.cs" t="Include" />
       </e>
+      <e p="Weather" t="Include">
+        <e p="WeatherType.cs" t="Include" />
+      </e>
     </e>
   </component>
 </project>

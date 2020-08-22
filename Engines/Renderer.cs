@@ -40,11 +40,22 @@ namespace MyZooEmulator.Engines
             _left = Console.CursorLeft;
             _top = Console.CursorTop;
             
+            Console.SetCursorPosition(0, 6);
+            Console.WriteLine("");
+            
+            Console.SetCursorPosition(0, 6);
+            Console.WriteLine($"Thông báo:  {message} !!!");
+            
+            Console.SetCursorPosition(_left, _top);
+        }
+
+        public static void PrintWeather(string message)
+        {
             Console.SetCursorPosition(0, 4);
             Console.WriteLine("");
             
             Console.SetCursorPosition(0, 4);
-            Console.WriteLine($"Message:  {message}");
+            Console.WriteLine($"Thời tiết:  {message} !!!");
             
             Console.SetCursorPosition(_left, _top);
         }
