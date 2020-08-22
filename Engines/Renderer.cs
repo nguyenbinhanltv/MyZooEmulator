@@ -19,15 +19,14 @@ namespace MyZooEmulator.Engines
         //{
         //    return instance;
         //}
-
-        // Print header at the top of the screen
+        
         public static void PrintHeader()
         {
             // Print title
             //Console.SetCursorPosition(0, 0);
             Console.Clear();        
             Console.WriteLine("-------------------------");
-            Console.WriteLine("      Zoo emulator       ");
+            Console.WriteLine("     Sở thú diệu kì      ");
             Console.WriteLine("-------------------------");
             Console.WriteLine();
             Console.WriteLine();
