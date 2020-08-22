@@ -16,13 +16,16 @@ namespace MyZooEmulator
             //Change color message
             Console.ForegroundColor = ConsoleColor.Red;
             
+            //Time 1 day
+            int TimeOneDay = 500;
+            
             // Create zooEmulator
             var zoo = new ZooRepo();
             zoo.AddAnimalsForDebug();
 
             // Create God of death
             var Anubis = new GodOfDeath();
-            Anubis.SetWatchPeriod(5000);
+            Anubis.SetWatchPeriod(TimeOneDay);
             Anubis.WatchFor(zoo);
             Anubis.WakeUp();
 

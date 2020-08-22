@@ -21,7 +21,7 @@ namespace MyZooEmulator.Engines
         public GodOfDeath()
         {
             _timer = new Timer();
-            Days = 0;
+            Days = 1;
         }
 
         public GodOfDeath(ZooRepo zoo, int period)
@@ -45,8 +45,6 @@ namespace MyZooEmulator.Engines
             _timer.Elapsed += (sender, e) =>
             {
                 TouchSomebody(sender, e, Zoo);
-                Days++;
-                RandomWeather(Days);
             };
         }
 
@@ -73,6 +71,8 @@ namespace MyZooEmulator.Engines
             if (victim != null)
             {
                 victim.ChangeStatus();
+                RandomWeather(Days);
+                Days++;
             }
         }
     }

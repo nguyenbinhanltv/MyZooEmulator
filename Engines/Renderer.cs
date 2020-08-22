@@ -41,10 +41,10 @@ namespace MyZooEmulator.Engines
             _top = Console.CursorTop;
             
             Console.SetCursorPosition(0, 6);
-            Console.WriteLine("");
+            Console.WriteLine("                                                                                       ");
             
             Console.SetCursorPosition(0, 6);
-            Console.WriteLine($"Thông báo:  {message} !!!");
+            Console.WriteLine($"Thông báo:  {message} \r\n");
             
             Console.SetCursorPosition(_left, _top);
         }
@@ -52,10 +52,10 @@ namespace MyZooEmulator.Engines
         public static void PrintWeather(string message)
         {
             Console.SetCursorPosition(0, 4);
-            Console.WriteLine("");
+            Console.WriteLine("                                                                                       ");
             
             Console.SetCursorPosition(0, 4);
-            Console.WriteLine($"Thời tiết:  {message} !!!");
+            Console.WriteLine($"Thời tiết:  {message} \r\n");
             
             Console.SetCursorPosition(_left, _top);
         }
