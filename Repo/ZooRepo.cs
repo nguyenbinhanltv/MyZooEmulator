@@ -26,20 +26,22 @@ namespace MyZooEmulator.Repo
         {
             _animals = new List<Animal>
             {
-                new Lion("Lenny"),
+                new Lion("Shu"),
                 new Lion("Lippy"),
                 new Tiger("Tigo"),
                 new Tiger("Tai"),
-                new Elephant("Ellice"),
-                new Elephant("Andre"),
+                new Elephant("Meo Meo Meo Meo Meo"),
+                new Elephant("Gau Gau"),
                 new Elephant("Pippo"),
                 new Bear("Bonny"),
-                new Bear("Claid"),
+                new Bear("Gau Trang"),
                 new Wolf("Chico"),
                 new Wolf("Harry"),
                 new Wolf("Sonny"),
-                new Fox("Jecky"),
-                new Fox("Ronny")
+                new Fox("FireFox"),
+                new Fox("GG"),
+                new Rabbit("HuyLoz"),
+                new Rabbit("DucCop")
             };
         }
 

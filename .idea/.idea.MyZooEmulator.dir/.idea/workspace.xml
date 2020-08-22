@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06707d55-81cd-4bcf-a88e-2bda139da89e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animals/AnimalType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/AnimalType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,6 @@
       <list>
         <option value="$PROJECT_DIR$/Engines/GodOfDeath.cs" />
         <option value="$PROJECT_DIR$/Engines/Renderer.cs" />
-        <option value="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/MyZooEmulator.AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Animals/Animal.cs" />
         <option value="$PROJECT_DIR$/Animals/AnimalStatus.cs" />
@@ -51,6 +49,7 @@
         <option value="$PROJECT_DIR$/Repo/ZooRepo.cs" />
         <option value="$PROJECT_DIR$/Animals/AnimalType.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/MyZooEmulator.AssemblyInfo.cs" />
       </list>
     </option>
   </component>
@@ -103,13 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598068043375</updated>
       <workItem from="1598068106571" duration="7666000" />
+      <workItem from="1598113664182" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -121,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
