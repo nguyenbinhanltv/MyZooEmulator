@@ -8,7 +8,6 @@ using System.Timers;
 using MyZooEmulator.Animals;
 using MyZooEmulator.Engines;
 using MyZooEmulator.Factories;
-using MyZooEmulator.Engines;
 
 namespace MyZooEmulator.Repo
 {

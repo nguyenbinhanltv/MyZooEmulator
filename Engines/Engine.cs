@@ -43,7 +43,7 @@ namespace MyZooEmulator.Engines
                 userInput = Renderer.DisplayMenu("Chức năng:", new List<string>
                                                         {
                                                             "1. Thêm sinh vật",
-                                                            "2. Trạng thái sinh vật",
+                                                            "2. Cho sinh vật ăn",
                                                             "3. Chữa bệnh cho sinh vật",
                                                             "4. Xóa sổ sinh vật",
                                                             "5. Thông tin các sinh vật",
@@ -112,17 +112,17 @@ namespace MyZooEmulator.Engines
                             break;
 
                         case 2:
-                            Console.WriteLine($"Chọn trạng thái loài:");
+                            Console.WriteLine($"Tên sinh vật cho ăn:");
                             var feedAnimal = zoo.GetAnimalByName(Console.ReadLine());
                             feedAnimal.Feed();
                             break;
                         case 3:
-                            Console.WriteLine($"Chọn loài cần chữa:");
+                            Console.WriteLine($"Tên sinh vật cần chữa:");
                             var cureAnimal = zoo.GetAnimalByName(Console.ReadLine());
                             cureAnimal.Cure();
                             break;
                         case 4:
-                            Console.WriteLine($"Chọn loài cần xóa:");
+                            Console.WriteLine($"Tên sinh vật cần xóa:");
                             zoo.DeleteAnimal(Console.ReadLine());
                             break;
                         case 5:

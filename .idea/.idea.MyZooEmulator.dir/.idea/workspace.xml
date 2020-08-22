@@ -7,6 +7,10 @@
     <list default="true" id="06707d55-81cd-4bcf-a88e-2bda139da89e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Animals/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engines/Engine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Engines/Engine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repo/ZooRepo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repo/ZooRepo.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +24,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Engines/GodOfDeath.cs" />
-        <option value="$PROJECT_DIR$/Engines/Engine.cs" />
-        <option value="$PROJECT_DIR$/Repo/ZooRepo.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Engines/Renderer.cs" />
+        <option value="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/MyZooEmulator.AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Properties/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Engines/Engine.cs" />
         <option value="$PROJECT_DIR$/Animals/Animal.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Repo/ZooRepo.cs" />
       </list>
     </option>
   </component>
@@ -43,6 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="MyZooEmulator" type="DotNetProject" factoryName=".NET Project">
@@ -72,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598068043375</updated>
-      <workItem from="1598068106571" duration="2890000" />
+      <workItem from="1598068106571" duration="3962000" />
     </task>
     <servers />
   </component>
@@ -83,5 +90,23 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1598072085374">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598072085374" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1598072085374">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598072085374" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1598072085374">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598072085374" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1598072085374">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598072085374" />
   </component>
 </project>

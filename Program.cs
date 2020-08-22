@@ -1,19 +1,27 @@
 ﻿using System;
+using System.Runtime.InteropServices;
+using System.Text;
 using MyZooEmulator.Engines;
 using MyZooEmulator.Repo;
-using MyZooEmulator.Engines;
 
 namespace MyZooEmulator
 {
     class Program
     {
+        [DllImport("kernel32.dll")]
+        static extern bool SetConsoleOutputCP(uint wCodePageID);
+        
         static void Main(string[] args)
         {
-            // Create zoo repository
+            //Use VietNamese
+            SetConsoleOutputCP(65001);
+            Console.OutputEncoding = Encoding.UTF8;
+            
+            // Create zooEmulator
             var zoo = new ZooRepo();
             zoo.AddAnimalsForDebug();
 
-            // Create God of death :)
+            // Create God of death
             var Anubis = new GodOfDeath();
             Anubis.SetWatchPeriod(5000);
             Anubis.WatchFor(zoo);
