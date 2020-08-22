@@ -72,6 +72,7 @@ namespace MyZooEmulator.Engines
                                                                     "4. Bear",
                                                                     "5. Wolf",
                                                                     "6. Fox",
+                                                                    "7. Rabbit",
                                                                     "Ấn bất kì để thoát."
                                                                 });
 
@@ -81,28 +82,32 @@ namespace MyZooEmulator.Engines
                             switch (userInput)
                             {
                                 case 1:
-                                    Console.WriteLine($"Lion đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Lion thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Lion);
                                     break;
                                 case 2:
-                                    Console.WriteLine($"Tiger đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Tiger thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Tiger);
                                     break;
                                 case 3:
-                                    Console.WriteLine($"Elephant đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Elephant thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Elephant);
                                     break;
                                 case 4:
-                                    Console.WriteLine($"Bear đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Bear thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Bear);
                                     break;
                                 case 5:
-                                    Console.WriteLine($"Wolf đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Wolf thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Wolf);
                                     break;
                                 case 6:
-                                    Console.WriteLine($"Fox đã được thêm vào sở thú:");
+                                    Console.WriteLine($"Tên Fox thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Fox);
+                                    break;
+                                case 7:
+                                    Console.WriteLine($"Tên Rabbit thêm vào sở thú:");
+                                    zoo.CreateAnimal(Console.ReadLine(), AnimalType.Rabbit);
                                     break;
                                 default:
                                     break;

@@ -75,6 +75,9 @@ namespace MyZooEmulator.Repo
                 case AnimalType.Fox:
                     _factory = new FoxFactory();
                     break;
+                case AnimalType.Rabbit:
+                    _factory = new RabbitFactory();
+                    break;
                 default:
                     Renderer.PrintMessage("Không thể tạo thêm sinh vật vào sở thú !!!");
                     break;

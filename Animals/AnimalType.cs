@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyZooEmulator.Animals
+﻿namespace MyZooEmulator.Animals
 {
     enum AnimalType
     {
@@ -13,6 +7,8 @@ namespace MyZooEmulator.Animals
         Elephant,
         Bear,
         Wolf,
-        Fox
+        Fox,
+        Rabbit,
+        Glass,
     }
 }

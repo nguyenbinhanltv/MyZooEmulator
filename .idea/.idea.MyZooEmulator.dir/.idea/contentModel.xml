@@ -12,7 +12,9 @@
         <e p="Bear.cs" t="Include" />
         <e p="Elephant.cs" t="Include" />
         <e p="Fox.cs" t="Include" />
+        <e p="Glass.cs" t="Include" />
         <e p="Lion.cs" t="Include" />
+        <e p="Rabbit.cs" t="Include" />
         <e p="Tiger.cs" t="Include" />
         <e p="Wolf.cs" t="Include" />
       </e>

@@ -36,4 +36,9 @@ namespace MyZooEmulator.Factories
     {
         public Animal Create(string name) { return new Fox(name); }
     }
+
+    class RabbitFactory : IFactory
+    {
+        public Animal Create(string name) { return new Rabbit(name); }
+    }
 }
