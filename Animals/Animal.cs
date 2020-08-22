@@ -83,21 +83,18 @@ namespace MyZooEmulator.Animals
                 if (_health < MaxHealth)
                 {
                     _health++;
-
-                    // Print message
+                    
                     Renderer.PrintMessage($"Sinh vật {Type} {Name} được chữa bệnh, sức khỏe: {Health}");
 
                 }
                 else
                 {
-                    // Print message
-                    Renderer.PrintMessage($"You can't cure {Type} {Name} he has max health!!!");
+                    Renderer.PrintMessage($"Không thể chữa bệnh {Type} {Name} vì sức khỏe đang Max!!!");
                 }
             }
             else
             {
-                // Print message
-                Renderer.PrintMessage($"{Type} {Name} dead you can't cure it");
+                Renderer.PrintMessage($"{Type} {Name} Chết òi, không chữa được đâu, thịt thui");
 
             }
 
