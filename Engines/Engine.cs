@@ -150,11 +150,11 @@ namespace MyZooEmulator.Engines
                             {
                                 case 1:
 
-                                    Console.WriteLine($"Animals grouped by type:");
+                                    Console.WriteLine($"Nhóm sinh vật theo loài:");
                                     zoo.GetAnimalsGroupedByType().ToList()
                                         .ForEach(g =>
                                         {
-                                            Console.WriteLine($"Group {g.Key}");
+                                            Console.WriteLine($"Nhóm {g.Key}");
                                             g.ToList().ForEach(i => Console.WriteLine(i));
                                         });
 
@@ -164,13 +164,13 @@ namespace MyZooEmulator.Engines
                                 case 2:
 
                                     // Print menu
-                                    userInput = Renderer.DisplayMenu("Choose animal status:", new List<string>
+                                    userInput = Renderer.DisplayMenu("Chọn trạng thái:", new List<string>
                                                                 {
                                                                     "1. Full",
                                                                     "2. Empty",
                                                                     "3. Sick",
                                                                     "4. Dead",
-                                                                    "Press any key back to prev menu"
+                                                                    "Ấn bất kì để thoát."
                                                                 });
 
                                     // Print header
@@ -196,7 +196,7 @@ namespace MyZooEmulator.Engines
                                             break;
                                     }
 
-                                    Console.WriteLine($"Animals with selected status:");
+                                    Console.WriteLine($"Sinh vật có trạng thái đã chọn:");
 
                                     zoo.GetAnimalsByStatus(status).ToList()
                                         .ForEach(i => Console.WriteLine(i));
@@ -206,7 +206,7 @@ namespace MyZooEmulator.Engines
 
                                 case 3:
 
-                                    Console.WriteLine($"Sick tigers:");
+                                    Console.WriteLine($"Thông tin all Tigers bị bệnh:");
 
                                     zoo.GetSickTigers().ToList().ForEach(i => Console.WriteLine(i));
 
@@ -215,7 +215,7 @@ namespace MyZooEmulator.Engines
 
                                 case 4:
 
-                                    Console.WriteLine($"Show elephant by name:");
+                                    Console.WriteLine($"Thông tin Elephant theo tên:");
 
                                     Console.WriteLine(zoo.GetElephantByName(Console.ReadLine()));
 
@@ -224,7 +224,7 @@ namespace MyZooEmulator.Engines
 
                                 case 5:
 
-                                    Console.WriteLine($"List of empty animals names:");
+                                    Console.WriteLine($"Thông tin theo loài không xác định:");
 
                                     zoo.GetEmptyAnimalsNames().ToList().ForEach(i => Console.WriteLine(i));
 
@@ -233,7 +233,7 @@ namespace MyZooEmulator.Engines
 
                                 case 6:
 
-                                    Console.WriteLine($"More healthy animals of each type:");
+                                    Console.WriteLine($"Sức khỏe của sinh vật theo loài:");
 
                                     zoo.GetMoreHealthyAnimalsEachType().ToList().ForEach(i => Console.WriteLine(i));
 
@@ -242,7 +242,7 @@ namespace MyZooEmulator.Engines
 
                                 case 7:
 
-                                    Console.WriteLine($"Dead animals amount of each group:");
+                                    Console.WriteLine($"Số lượng sinh vật chết mỗi loài:");
 
                                     zoo.GetDeadAnimalsAmountEachType().ToList().ForEach(i => Console.WriteLine($"{i.Key}: {i.Value}"));
 
@@ -251,7 +251,7 @@ namespace MyZooEmulator.Engines
 
                                 case 8:
 
-                                    Console.WriteLine($"Wolfs and bears that have health greater than 3 points:");
+                                    Console.WriteLine($"Wolfs và bears có health > 3:");
 
                                     zoo.GetWolfsAndBearsHealthGt3().ToList().ForEach(i => Console.WriteLine(i));
 
@@ -260,7 +260,7 @@ namespace MyZooEmulator.Engines
 
                                 case 9:
 
-                                    Console.WriteLine($"Animals that have min and max health:");
+                                    Console.WriteLine($"Các sinh vật có min và max sức khỏe:");
 
                                     zoo.GetAnimalsMinMaxHealth().ToList().ForEach(i => Console.WriteLine(i));
 
@@ -269,7 +269,7 @@ namespace MyZooEmulator.Engines
 
                                 case 10:
 
-                                    Console.WriteLine($"Avg health of alive animals:");
+                                    Console.WriteLine($"Sức khỏe trung bình của các động vật chưa hẹo:");
 
                                     Console.WriteLine(zoo.GetAnimalsAvgHealth());
 
@@ -290,7 +290,7 @@ namespace MyZooEmulator.Engines
                 }
                 catch (InvalidOperationException)
                 {
-                    Renderer.PrintMessage("Animal you specify doesn't exist");
+                    Renderer.PrintMessage("Sinh vật bạn chọn không có");
                 }
 
 
@@ -301,7 +301,7 @@ namespace MyZooEmulator.Engines
             if (allAnimalsDead)
             {
                 Console.Clear();
-                Console.WriteLine("There are any alive animal in the zoo!");
+                Console.WriteLine("Sở thú của bạn đã bị hủy diệt.");
                 Console.ReadKey();
             }
         }
