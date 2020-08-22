@@ -51,7 +51,7 @@ namespace MyZooEmulator.Repo
             var exist = _animals.Where(i => i.Name == name).ToArray().Length;
             if (exist > 0)
             {
-                Renderer.PrintMessage("Animal with this name already exitst!");
+                Renderer.PrintMessage($"Động vật có tên: ${name} đã có trong sở thú!!!");
                 return;
             }
 
@@ -77,7 +77,7 @@ namespace MyZooEmulator.Repo
                     _factory = new FoxFactory();
                     break;
                 default:
-                    Renderer.PrintMessage("Couldn't create animal");
+                    Renderer.PrintMessage("Không thể tạo thêm sinh vật vào sở thú !!!");
                     break;
             }
 
@@ -89,7 +89,7 @@ namespace MyZooEmulator.Repo
             }
             catch(ArgumentNullException ex)
             {
-                Renderer.PrintMessage($"Couldn't create animal {ex.Message}");
+                Renderer.PrintMessage($"Không thể tạo sinh vật {ex.Message}");
             }
             
         }
@@ -133,7 +133,7 @@ namespace MyZooEmulator.Repo
                 {
                     var delAnimal = _animals.First(i => i.Name == name);
                     if (delAnimal.Status == AnimalStatus.Dead) _animals.Remove(delAnimal);
-                    Renderer.PrintMessage($"Animal {name} deleted");
+                    Renderer.PrintMessage($"Sinh vật {name} đã bị khai tử khỏi sở thú");
                 }
                 else
                 {
@@ -142,12 +142,12 @@ namespace MyZooEmulator.Repo
             }
             catch (InvalidOperationException)
             {
-                Renderer.PrintMessage($"Animal {name} doesn't exist");
+                Renderer.PrintMessage($"Không có sinh vật {name} trong sở thú");
             }
             
         }
 
-        // ------------------ 3rd task ---------------------
+        // ---------------------------------------
 
         // Get list of animals grouped by type
         public IEnumerable<IGrouping<AnimalType, Animal>> GetAnimalsGroupedByType()

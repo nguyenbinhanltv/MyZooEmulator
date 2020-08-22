@@ -40,14 +40,14 @@ namespace MyZooEmulator.Engines
                 Renderer.PrintHeader();
 
                 // Print menu
-                userInput = Renderer.DisplayMenu("Actions:", new List<string>
+                userInput = Renderer.DisplayMenu("Chức năng:", new List<string>
                                                         {
-                                                            "1. Add animal",
-                                                            "2. Feed animal",
-                                                            "3. Cure animal",
-                                                            "4. Delete animal",
-                                                            "5. Show animals    <--- 3rd task",
-                                                            "6. Exit"
+                                                            "1. Thêm sinh vật",
+                                                            "2. Trạng thái sinh vật",
+                                                            "3. Chữa bệnh cho sinh vật",
+                                                            "4. Xóa sổ sinh vật",
+                                                            "5. Thông tin các sinh vật",
+                                                            "6. Out"
                                                         });
 
 
@@ -64,7 +64,7 @@ namespace MyZooEmulator.Engines
                         case 1:
 
                             // Print menu
-                            userInput = Renderer.DisplayMenu("Choose animal type:", new List<string>
+                            userInput = Renderer.DisplayMenu("Chọn loại sinh vật:", new List<string>
                                                                 {
                                                                     "1. Lion",
                                                                     "2. Tiger",
@@ -72,7 +72,7 @@ namespace MyZooEmulator.Engines
                                                                     "4. Bear",
                                                                     "5. Wolf",
                                                                     "6. Fox",
-                                                                    "Press any key back to prev menu"
+                                                                    "Ấn bất kì để thoát."
                                                                 });
 
                             // Print header
@@ -81,27 +81,27 @@ namespace MyZooEmulator.Engines
                             switch (userInput)
                             {
                                 case 1:
-                                    Console.WriteLine($"Type lion name to create:");
+                                    Console.WriteLine($"Lion đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Lion);
                                     break;
                                 case 2:
-                                    Console.WriteLine($"Type tiger name to create:");
+                                    Console.WriteLine($"Tiger đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Tiger);
                                     break;
                                 case 3:
-                                    Console.WriteLine($"Type elephant name to create:");
+                                    Console.WriteLine($"Elephant đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Elephant);
                                     break;
                                 case 4:
-                                    Console.WriteLine($"Type bear name to create:");
+                                    Console.WriteLine($"Bear đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Bear);
                                     break;
                                 case 5:
-                                    Console.WriteLine($"Type wolf name to create:");
+                                    Console.WriteLine($"Wolf đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Wolf);
                                     break;
                                 case 6:
-                                    Console.WriteLine($"Type fox name to create:");
+                                    Console.WriteLine($"Fox đã được thêm vào sở thú:");
                                     zoo.CreateAnimal(Console.ReadLine(), AnimalType.Fox);
                                     break;
                                 default:
@@ -112,17 +112,17 @@ namespace MyZooEmulator.Engines
                             break;
 
                         case 2:
-                            Console.WriteLine($"Type animal name to feed:");
+                            Console.WriteLine($"Chọn trạng thái loài:");
                             var feedAnimal = zoo.GetAnimalByName(Console.ReadLine());
                             feedAnimal.Feed();
                             break;
                         case 3:
-                            Console.WriteLine($"Type animal name to cure:");
+                            Console.WriteLine($"Chọn loài cần chữa:");
                             var cureAnimal = zoo.GetAnimalByName(Console.ReadLine());
                             cureAnimal.Cure();
                             break;
                         case 4:
-                            Console.WriteLine($"Type animal name to delete:");
+                            Console.WriteLine($"Chọn loài cần xóa:");
                             zoo.DeleteAnimal(Console.ReadLine());
                             break;
                         case 5:
@@ -130,17 +130,17 @@ namespace MyZooEmulator.Engines
                             // Print menu
                             userInput = Renderer.DisplayMenu("Show:", new List<string>
                                                             {
-                                                                "1. Animals grouped by type",
-                                                                "2. Animals by status",
-                                                                "3. All sick tigers",
-                                                                "4. Elephant by name",
-                                                                "5. Names of empty animals",
-                                                                "6. More healthy animals of the each type",
-                                                                "7. Dead animals amount of the each type",
-                                                                "8. Wolfs and bears that have health > 3",
-                                                                "9. Animals that have min and max health",
-                                                                "10. Average health of alive animals",
-                                                                "Press any key back to prev menu"
+                                                                "1. Thông tin xếp theo kiểu loài",
+                                                                "2. Thông tin xếp theo trạng thái",
+                                                                "3. Thông tin all Tigers bị bệnh",
+                                                                "4. Thông tin Elephant theo tên",
+                                                                "5. Thông tin theo loài không xác định",
+                                                                "6. Sức khỏe của sinh vật theo loài",
+                                                                "7. Số lượng sinh vật chết mỗi loài",
+                                                                "8. Wolfs và bears có health > 3",
+                                                                "9. Các sinh vật có min và max sức khỏe",
+                                                                "10. Sức khỏe trung bình của các động vật chưa hẹo",
+                                                                "Ấn bất kì để thoát."
                                                             });
 
                             // Print header
