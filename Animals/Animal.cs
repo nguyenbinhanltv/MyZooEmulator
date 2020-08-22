@@ -21,7 +21,7 @@ namespace MyZooEmulator.Animals
             _status = AnimalStatus.Full;
 
             // Print message 
-            Renderer.PrintMessage($"{Type} {Name} was created");
+            Renderer.PrintMessage($"{Type} {Name} đã được thêm vào sở thú");
         }
 
         public string Name { get { return _name; } }
@@ -36,25 +36,22 @@ namespace MyZooEmulator.Animals
             if (_status > AnimalStatus.Sick)
             {
                 _status--;
-
-                // Print message 
-                Renderer.PrintMessage($"{Type} {Name} status is decreased to {Status}");
+                
+                Renderer.PrintMessage($"{Type} {Name} được đổi trạng thái thành {Status}");
             }
             else
             {
                 if (_health > 0)
                 {
                     _health--;
-
-                    // Print message
-                    Renderer.PrintMessage($"{Type} {Name} health is decreased to {Health}");
+                    
+                    Renderer.PrintMessage($"Sức khỏe sinh vật {Type} {Name} giảm thành {Health}");
 
                     if (_health == 0)
                     {
                         _status = AnimalStatus.Dead;
-
-                        // Print message
-                        Renderer.PrintMessage($"{Type} {Name} dead!!!");
+                        
+                        Renderer.PrintMessage($"{Type} {Name} Chết nà");
                     }
                 }
 
@@ -67,14 +64,12 @@ namespace MyZooEmulator.Animals
             if (Status != AnimalStatus.Dead)
             {
                 _status = AnimalStatus.Full;
-
-                // Print message
-                Renderer.PrintMessage($"{Type} {Name} is feeded, his status: {Status}");
+                
+                Renderer.PrintMessage($"Sinh vật {Type} {Name} ăn, trạng thái: {Status}");
             }
             else
             {
-                // Print message
-                Renderer.PrintMessage($"{Type} {Name} dead, you can't feed it");
+                Renderer.PrintMessage($"{Type} {Name} đã chết, không cho ăn được âu");
 
             }
 
@@ -90,7 +85,7 @@ namespace MyZooEmulator.Animals
                     _health++;
 
                     // Print message
-                    Renderer.PrintMessage($"{Type} {Name} is cured, his health: {Health}");
+                    Renderer.PrintMessage($"Sinh vật {Type} {Name} được chữa bệnh, sức khỏe: {Health}");
 
                 }
                 else
