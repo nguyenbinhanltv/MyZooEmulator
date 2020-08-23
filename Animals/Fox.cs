@@ -12,6 +12,7 @@ namespace MyZooEmulator.Animals
         {
             _maxHealth = 3;
             _health = _maxHealth;
+            _weight = 5;
         }
 
         public override AnimalType Type { get { return AnimalType.Fox; } }

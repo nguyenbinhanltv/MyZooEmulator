@@ -7,6 +7,7 @@ namespace MyZooEmulator.Animals
         protected string _name;
         protected AnimalStatus _status;
         protected int _health;
+        protected int _weight;
         protected int _maxHealth;
                
         public Animal(string name)
@@ -20,6 +21,7 @@ namespace MyZooEmulator.Animals
 
         public string Name { get { return _name; } }
         public AnimalStatus Status { get { return _status; } }
+        public int Weight { get { return _weight; } }
         public int Health { get { return _health; } }
         public int MaxHealth { get { return _maxHealth; } }
         public abstract AnimalType Type { get; }

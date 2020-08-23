@@ -17,7 +17,7 @@ namespace MyZooEmulator
             Console.ForegroundColor = ConsoleColor.Red;
             
             //Time 1 day
-            int TimeOneDay = 500;
+            int TimeOneDay = 5000;
             
             // Create zooEmulator
             var zoo = new ZooRepo();
