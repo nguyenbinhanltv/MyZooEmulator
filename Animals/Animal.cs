@@ -21,7 +21,7 @@ namespace MyZooEmulator.Animals
 
         public string Name { get { return _name; } }
         public AnimalStatus Status { get { return _status; } }
-        public int Weight { get { return _weight; } }
+        public double Weight { get { return _weight; } }
         public int Health { get { return _health; } }
         public int MaxHealth { get { return _maxHealth; } }
         public abstract AnimalType Type { get; }
