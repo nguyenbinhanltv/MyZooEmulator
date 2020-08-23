@@ -24,7 +24,7 @@ Môi trường của sở thú:
 
 Thao tác của người chơi:
 
-| Name                     | Heath                                                |
+| Name                     | Feature                                                |
 | ---                      | ---                                                  |
 | Thêm sinh vật            | Thêm bất kì giống loài nào vào sở thú                |
 | Cho sinh vật ăn          | Chọn bất kì sinh vật nào cho ăn                      |
