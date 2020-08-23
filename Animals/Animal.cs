@@ -7,7 +7,7 @@ namespace MyZooEmulator.Animals
         protected string _name;
         protected AnimalStatus _status;
         protected int _health;
-        protected int _weight;
+        protected double _weight;
         protected int _maxHealth;
                
         public Animal(string name)
@@ -40,8 +40,9 @@ namespace MyZooEmulator.Animals
                 if (_health > 0)
                 {
                     _health--;
+                    _weight *= 0.9;
                     
-                    Renderer.PrintMessage($"Sức khỏe sinh vật ({Type}) {Name} giảm thành {Health}");
+                    Renderer.PrintMessage($"Sức khỏe, cân nặng sinh vật ({Type}) {Name} giảm thành {Health} | {Weight}");
 
                     if (_health == 0)
                     {

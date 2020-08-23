@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06707d55-81cd-4bcf-a88e-2bda139da89e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyZooEmulator.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Animals/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Animals/Animal.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,6 @@
         <option value="$PROJECT_DIR$/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/Animals/AnimalStatus.cs" />
         <option value="$PROJECT_DIR$/Animals/Glass.cs" />
-        <option value="$PROJECT_DIR$/Animals/Rabbit.cs" />
         <option value="$PROJECT_DIR$/Factories/Factory.cs" />
         <option value="$PROJECT_DIR$/Animals/AnimalType.cs" />
         <option value="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/MyZooEmulator.AssemblyInfo.cs" />
@@ -49,8 +47,15 @@
         <option value="$PROJECT_DIR$/Engines/Engine.cs" />
         <option value="$PROJECT_DIR$/Engines/Renderer.cs" />
         <option value="$PROJECT_DIR$/Engines/GodOfDeath.cs" />
-        <option value="$PROJECT_DIR$/Animals/Animal.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Animals/Bear.cs" />
+        <option value="$PROJECT_DIR$/Animals/Elephant.cs" />
+        <option value="$PROJECT_DIR$/Animals/Fox.cs" />
+        <option value="$PROJECT_DIR$/Animals/Lion.cs" />
+        <option value="$PROJECT_DIR$/Animals/Rabbit.cs" />
+        <option value="$PROJECT_DIR$/Animals/Tiger.cs" />
+        <option value="$PROJECT_DIR$/Animals/Wolf.cs" />
+        <option value="$PROJECT_DIR$/Animals/Animal.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +111,7 @@
       <workItem from="1598113664182" duration="4801000" />
       <workItem from="1598124862020" duration="5564000" />
       <workItem from="1598131493289" duration="4343000" />
-      <workItem from="1598170698083" duration="449000" />
+      <workItem from="1598170698083" duration="1248000" />
     </task>
     <servers />
   </component>
@@ -131,26 +136,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="916" height="438" key="GridCell.Tab.0.bottom" timestamp="1598135839624">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom" timestamp="1598171643534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598135839624" />
-    <state width="916" height="438" key="GridCell.Tab.0.center" timestamp="1598135839624">
+    <state width="916" height="438" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598171643534" />
+    <state width="916" height="438" key="GridCell.Tab.0.center" timestamp="1598171643534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="438" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598135839624" />
-    <state width="916" height="438" key="GridCell.Tab.0.left" timestamp="1598135839623">
+    <state width="916" height="438" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598171643534" />
+    <state width="916" height="438" key="GridCell.Tab.0.left" timestamp="1598171643533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="438" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598135839623" />
-    <state width="916" height="438" key="GridCell.Tab.0.right" timestamp="1598135839624">
+    <state width="916" height="438" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598171643533" />
+    <state width="916" height="438" key="GridCell.Tab.0.right" timestamp="1598171643534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="372" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598078184516" />
-    <state width="916" height="438" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598135839624" />
+    <state width="916" height="438" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598171643534" />
     <state x="1052" y="100" width="776" height="840" key="VCS.FileHistoryDialog" timestamp="1598132347738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
