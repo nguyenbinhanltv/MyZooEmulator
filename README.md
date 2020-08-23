@@ -14,12 +14,12 @@ Giả lập môi trường sở thú bằng Console App DOTNET bao gồm các lo
 
 Môi trường của sở thú:
 
-| Method           |                                                               Feature                                                                    |
-| ---              | ---                                                                                                                                      |
-| SetWatchPeriod() | Đặt thời gian trong giả lập = một ngày, VD: set 5000ms = 1day                                                                            |
-| WatchFor()       | Thời gian tăng dần                                                                                                                       |
-| RandomWeather()  | Thời tiết thay đổi mỗi ngày                                                                                                              |
-| TouchSomebody()  | Mỗi ngày sẽ có ngẫu nhiên 1 sinh vật đánh nhau và giảm trạng thái, nếu trong sở thú có sinh vật nào có trạng thái Sick thì health giảm 1 |
+| Method           |                                                               Feature                                                                                       |
+| ---              | ---                                                                                                                                                         |
+| SetWatchPeriod() | Đặt thời gian trong giả lập = một ngày, VD: set 5000ms = 1day                                                                                               |
+| WatchFor()       | Thời gian tăng dần                                                                                                                                          |
+| RandomWeather()  | Thời tiết thay đổi mỗi ngày                                                                                                                                 |
+| TouchSomebody()  | Mỗi ngày sẽ có ngẫu nhiên 1 sinh vật đánh nhau và giảm trạng thái, nếu trong sở thú có sinh vật nào có trạng thái Sick thì health giảm 1, cân nặng giảm 10% |
 
 
 Thao tác của người chơi:
